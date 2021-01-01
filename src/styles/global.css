@@ -1,0 +1,106 @@
+/* global.css */
+
+body {
+  --bg: white;
+  --textNormal: #222;
+  --textTitle: #222;
+  --textLink: blue;
+  --hr: hsla(0, 0%, 0%, 0.2);
+
+  background-color: var(--bg);
+}
+
+body.dark {
+  -webkit-font-smoothing: antialiased;
+
+  --bg:  #16213E;
+  --textNormal: rgba(255, 255, 255, 0.88);
+  --textTitle: #E94560;
+  --textLink: #E94560;
+  --hr: hsla(0, 0%, 100%, 0.2);
+}
+/*darkslategray*/
+h1{
+ color: #E94560;
+}
+
+h2{
+  color: #E94560;
+  text-align: center;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.linkedin {
+  color: #0e76a8;
+}
+
+a.github {
+  color: #171515;
+}
+
+
+
+.social-container {
+  text-align: center;
+  padding: 25px 50px;
+  background-color: white;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+.footer {
+color: #585558;
+padding: 12px 25px;
+}
+
+
+
+.btn {
+  border-radius: 5px;
+  padding: 15px 55px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: #E94560;
+  position: relative;
+  display: inline-block;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+
+.whitebutton {
+
+  background-color: white;
+  box-shadow: 3px 5px 5px #888888;
+  border-radius: 2px;
+  transition: all 1s ease;
+  transform: scale(1);
+}
+
+.whitebutton:hover {
+  background-color: white;
+/*  Making button bigger on hover  */
+  transform: scale(1.5) perspective(1px)
+}
+.container{
+  text-align: center;
+}
+
+.hiddenlabel{
+  color: transparent;
+}
+/*.hidden { display:none; }*/
