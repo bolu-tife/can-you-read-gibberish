@@ -5,9 +5,6 @@ import gibberish from "../gibberishdb/gibbDB"
 import {navigate} from 'gatsby';
 
 
-import ReactDOM from'react-dom'
-
-
 
 // export default function GibberishGen(){}
 export default class GibberishGen extends Component {
@@ -63,7 +60,6 @@ export default class GibberishGen extends Component {
 
   }
 
-  //shuufle quotes function
   shufflegibbs = (arr) => {
     return arr.sort(function () { return 0.5 - Math.random() });
   }
@@ -78,7 +74,7 @@ export default class GibberishGen extends Component {
         <GibberishAndAnswer
           generateRandomGibb={this.generateRandomGibb}
           gibb={this.state}
-          // onClick={onClick}
+        
           />
         
                  
@@ -100,27 +96,3 @@ export default class GibberishGen extends Component {
     )
   }
 }
-// const Results = (props) => (<div className='Results'>
-//   <form onSubmit={this.submitData}>
-//           <label className='hiddenlabel' for="Guess">Guess</label>
-//   <br/>
-
-//           <input type="text" id='guess' name="guess" onChange={this.inputData}/>
-//           <br/>
-//           <button type="submit">Submit</button>
-//            <br/>
-//           <label id='labeltext' name="labeltext"></label>
-//         </form>
-//         </div>
-// )
-// export default Results
-// ReactDOM.render(<Results />, document.getElementById("#gibbs"));
-
-
-
-
-
-// // ReactDOM.render(
-// //   <SectionThree />,
-// //   document.getElementById('root')
-// // );

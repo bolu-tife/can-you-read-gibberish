@@ -32,18 +32,22 @@ module.exports = {
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: `standalone`,
         prefer_related_applications: false,
+        
+
+        icon: `src/images/icon.png`,
         icons: [
+       
             {
-              "src": "src/images/maskable_icon1.png", // This path is relative to the root of the site.
-              "sizes": "192x192",
-              "type": "image/png",
-              "purpose": "any maskable"
+              src: `src/images/maskable_icon1.png`, // This path is relative to the root of the site.
+              sizes: `192x192`,
+              type: `image/png`,
+              purpose: `any maskable`
             },
             {
-              "src": "src/images/maskable_icon.png", // This path is relative to the root of the site.
-              "sizes": "512x512",
-              "type": "image/png",
-              "purpose": "any maskable"
+              src: `src/images/maskable_icon.png`, // This path is relative to the root of the site.
+              sizes: `512x512`,
+              type: `image/png`,
+              purpose: `any maskable`
             },
           ],
       },
