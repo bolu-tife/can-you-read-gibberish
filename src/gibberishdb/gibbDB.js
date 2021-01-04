@@ -41,7 +41,7 @@ const gibberish = [
     },
     {
         "gibb": "d I30w t1s 131g",
-        "answer": "boatiscool"
+        "answer": "theboatisbig"
     },
     {
         "gibb": "eye ham4 3",
